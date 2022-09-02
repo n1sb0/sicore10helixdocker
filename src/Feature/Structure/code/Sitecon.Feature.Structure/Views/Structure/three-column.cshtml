@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecon.Feature.Structure
+@using Sitecon.Foundation.SitecoreHelperExtensions
+@model RenderingModel
+
+<div class="row mt-4">
+    <div class="col-4">
+        @Html.Sitecore().DynamicPlaceholder(Templates.Placeholders.ColLeft.ToString())
+    </div>
+    <div class="col-4">
+        @Html.Sitecore().DynamicPlaceholder(Templates.Placeholders.ColCenter.ToString())
+    </div>
+    <div class="col-4">
+        @Html.Sitecore().DynamicPlaceholder(Templates.Placeholders.ColRight.ToString())
+    </div>
+</div>

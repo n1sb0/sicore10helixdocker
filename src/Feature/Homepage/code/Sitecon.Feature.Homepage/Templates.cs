@@ -27,10 +27,10 @@ namespace Sitecon.Feature.Homepage
         {
             public static class Fields
             {
-                public static readonly ID CTABackgroundImage = new ID("{74BE8A5A-9018-4EFA-B3C8-175D0B75FE55}");
-                public static readonly ID CTATitle = new ID("{D1A19ABA-8488-4FF2-9432-1FF42F96A333}");
-                public static readonly ID CTAText = new ID("{B5FA4118-83FD-48E7-AA0E-D2EE69AD9136}");
-                public static readonly ID CTALink = new ID("{2740BFD4-6E0D-4099-A044-B29D6EF2C3DF}");
+                public static readonly ID CTABackgroundImage = new ID("{10EB2BEB-DB61-4DC0-B87F-83BAA191CC9B}");
+                public static readonly ID CTATitle = new ID("{6CD4013F-F765-47CA-ABB1-AF89B6710E5A}");
+                public static readonly ID CTAText = new ID("{B0164DB1-A4FB-4468-907C-483CB804C7C0}");
+                public static readonly ID CTALink = new ID("{58D9E6C8-0C77-45F2-B30B-412793276585}");
             }
         }
 
@@ -38,12 +38,12 @@ namespace Sitecon.Feature.Homepage
         {
             public static class Fields
             {
-                public static readonly ID HomepageHeroBackgroundImage = new ID("{372D4EEF-4FE2-4040-B52B-28ED912AB099}");
-                public static readonly ID HomepageHeroTagline = new ID("{A2C27361-C25E-4BFB-95AE-5C831455C06B}");
-                public static readonly ID HomepageHeroTitle = new ID("{2B780F4A-E72B-44BC-ABD4-683532B83DDD}");
-                public static readonly ID HomepageHeroSubtitle = new ID("{CFAD1589-35EF-47E1-940C-F04D1BC00ED9}");
-                public static readonly ID HomepageHeroCTALink = new ID("{48B24967-7AE3-48BE-BC6E-D2415D4797FF}");
-                public static readonly ID HomepageHeroCTALinkText = new ID("{D6B08588-FFBB-400D-BC84-854D48432AE9}");
+                public static readonly ID HomepageHeroBackgroundImage = new ID("{15521297-5F20-43EF-92F8-7E4895C660EA}");
+                public static readonly ID HomepageHeroTagline = new ID("{B1C0E41F-A99E-4F84-8EA3-86E439591BFD}");
+                public static readonly ID HomepageHeroTitle = new ID("{780ED79F-4AAC-4D7B-B593-59D321387F19}");
+                public static readonly ID HomepageHeroSubtitle = new ID("{77FD9B34-3550-4106-8525-9FC215752E46}");
+                public static readonly ID HomepageHeroCTALink = new ID("{85B9134E-DB5C-4E04-AB36-35B0489C226E}");
+                public static readonly ID HomepageHeroCTALinkText = new ID("{532D99FA-3283-4368-ADE0-66CB0FECF087}");
             }
         }
     }

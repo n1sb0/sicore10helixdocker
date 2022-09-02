@@ -601,7 +601,6 @@
     <Compile Include="Controllers\PageContentController.cs" />
     <Compile Include="Models\ListWithIconsItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
@@ -618,6 +617,10 @@
       <Project>{79d3a1e3-e8df-4655-9376-b702a75c703e}</Project>
       <Name>Sitecon.Foundation.SitecoreHelperExtensions</Name>
       <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Structure\code\Sitecon.Feature.Structure\Sitecon.Feature.Structure.csproj">
+      <Project>{656cd258-e83d-4e26-abbd-79d3ed2dcc0b}</Project>
+      <Name>Sitecon.Feature.Structure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
